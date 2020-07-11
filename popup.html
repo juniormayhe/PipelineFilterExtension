@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Pipeline 2.0 Filter Plugin</title>
+  <style>
+    html,
+    body {
+      height: 230px;
+      margin: 0;
+      overflow: hidden;
+      width: 250px;
+      padding: 10px;
+      min-width: 250px;
+      /* your desired width */
+      position: relative;
+      vertical-align: middle;
+    }
+
+    body {
+      font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+      font-size: 81.25%;
+      color: white;
+      background-color: rgb(37, 37, 37);
+      font-size: large;
+
+    }
+
+    button {
+      font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+      color: white;
+      background-color: limegreen;
+      width: 100px;
+      font-size: large;
+      padding: 10px;
+      border-color: transparent;
+      border-radius: 10px;
+      
+      appearance: none;
+      -moz-appearance: none;
+      -webkit-appearance: none;
+      
+      
+    }
+
+    button:hover {
+      color: limegreen;
+      background-color: white;
+      cursor: pointer;
+    }
+    p {
+      width: 100%;
+      text-align:center;
+    }
+    strong {
+      font-size: larger;
+    }
+  </style>
+  <script src="popup.js"></script>
+</head>
+
+<body>
+  <p>
+    <strong>Pipeline 2.0 Filter</strong>
+  </p>
+  <p>
+    <img src="https://img.icons8.com/color/48/000000/jenkins.png"/>
+    <br>
+    Filter your log noise now.
+  </p>
+  <p>
+    <button id="filterNow">Filter!</button>
+  </p>
+  
+</body>
+
+</html>
