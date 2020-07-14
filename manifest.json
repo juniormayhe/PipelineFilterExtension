@@ -3,7 +3,7 @@
 
   "name": "Pipelines Filter Plugin",
   "description": "This extension removes noise from Jenkins pipeline build log",
-  "version": "0.1",
+  "version": "0.2",
   "author": "junior mayhe",
   "icons": {
       "128": "icon_16.png",

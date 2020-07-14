@@ -6,6 +6,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
         btn.innerText = 'Done!';
         window.setTimeout(function(){ btn.innerText = 'Filter!';}, 1000);
+		
+		window.setTimeout(function(){ window.close();}, 500);
 
     }, false);
 }, false);
