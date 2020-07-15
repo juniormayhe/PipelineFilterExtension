@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
 
-  "name": "Pipelines Filter Plugin",
+  "name": "Pipeline Log Filter",
   "description": "This extension removes noise from Jenkins pipeline build log",
   "version": "0.2",
   "author": "junior mayhe",
@@ -13,11 +13,10 @@
     },
 
   "browser_action": {
-   "default_icon": "icon_16.png",
-   "default_popup": "popup.html"
+	"default_title": "Filter this page",
+	"default_icon": "icon_16.png",
+	"default_popup": "popup.html"
   },
   
-  "permissions": [
-   "activeTab", "tabs"
-   ]
+  "permissions": ["activeTab"]
 }
