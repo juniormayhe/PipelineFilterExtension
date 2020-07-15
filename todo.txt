@@ -1,0 +1,12 @@
+# remove this from log in future versions
+
++ sync
++ echo 1
+
+Stashed 1 file(s)
+
+Stashed 0 file(s)
+
+Stashed 4 file(s)
+
+Stashed 0 file(s)
